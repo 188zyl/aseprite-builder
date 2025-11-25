@@ -19,7 +19,7 @@ jobs:
       release-tag: ${{ steps.aseprite-link.outputs.release-tag }}
     steps:
       - name: Fetch Aseprite release link
-        id: aseprite-link
+        id: 188zyl
         uses: a1393323447/fetch-release@main
         with:
             group: aseprite
